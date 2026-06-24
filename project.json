@@ -1,0 +1,20 @@
+{
+  "name": "minimalista_social_api",
+  "display_name": "minimalista_social_api",
+  "description": "API REST completa en Python Flask para un sistema de red social minimalista con posts y follows. Incluir autenticación JWT con refresh tokens, endpoints CRUD con validación marshmallow, base de datos SQLite con SQLAlchemy, rate limiting, logging estructurado, CORS, tests con pytest y documentación en README.",
+  "tech_stack": [
+    "Python",
+    "Flask",
+    "JWT",
+    "Marshmallow",
+    "SQLAlchemy",
+    "SQLite",
+    "Pytest"
+  ],
+  "created_at": "2026-06-24T13:29:02.769648",
+  "created_by": "Bot_Ant Multi-Agent System",
+  "version": "1.0.0",
+  "status": "in_development",
+  "portable": true,
+  "notes": "Este proyecto es portable. Puedes mover la carpeta completa a otro equipo."
+}

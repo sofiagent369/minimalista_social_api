@@ -1,0 +1,1 @@
+# Este archivo puede contener inicializaciones para los tests si es necesario

@@ -1,0 +1,175 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Configurar entorno de desarrollo",
+      "description": "Crear virtual environment, instalar Flask, SQLAlchemy, Marshmallow, PyJWT, Flask-CORS y Pytest. Crear estructura del proyecto con directorios app/, tests/ y requerimientos.txt.",
+      "assigned_to": "backend_expert",
+      "status": "in_progress",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.774183",
+      "started_at": "2026-06-24T13:29:03.543450",
+      "completed_at": null
+    },
+    {
+      "id": "task_002",
+      "title": "Configurar base de datos SQLite con SQLAlchemy",
+      "description": "Crear models.py en app/ con modelos User, Post, Follow. Crear script db_init.py para inicializar la base de datos y migraciones.",
+      "assigned_to": "database_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.784868",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_003",
+      "title": "Configurar autenticación JWT con refresh tokens",
+      "description": "Crear auth.py en app/ con endpoints para login, refresh token y logout. Utilizar PyJWT para generar y verificar tokens.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.794109",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_004",
+      "title": "Implementar rate limiting",
+      "description": "Utilizar Flask-Limiter para limitar el número de solicitudes por usuario. Configurar en app.py.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.802616",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Implementar logging estructurado",
+      "description": "Configurar logging en Flask para registrar peticiones y errores. Utilizar structlog para formato JSON.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.809698",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Implementar CORS",
+      "description": "Configurar Flask-CORS en app.py para permitir solicitudes desde cualquier origen. Crear archivo .env para configuración de CORS.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.816514",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Crear endpoints CRUD para posts con validación marshmallow",
+      "description": "Crear endpoints en routes/posts.py para create, read, update y delete de posts. Utilizar Marshmallow para validar solicitudes.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.825105",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "Crear endpoints CRUD para follows con validación marshmallow",
+      "description": "Crear endpoints en routes/follows.py para create, read y delete de follows. Utilizar Marshmallow para validar solicitudes.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001",
+        "task_002"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.846186",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_009",
+      "title": "Escribir tests con pytest",
+      "description": "Crear pruebas unitarias y de integración en tests/ para endpoints de posts y follows. Utilizar Pytest.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_005"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.848447",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_010",
+      "title": "Crear README.md con documentación de endpoints",
+      "description": "Escribir README.md con descripción del proyecto, endpoints disponibles, ejemplos de uso y credenciales para pruebas.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008",
+        "task_009"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T13:29:02.848447",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-24T13:29:03.543450"
+}

@@ -1,0 +1,6 @@
+Flask==2.1.3
+SQLAlchemy==1.4.36
+Marshmallow==3.14.1
+PyJWT==2.4.0
+Flask-CORS==3.0.10
+pytest==7.1.2

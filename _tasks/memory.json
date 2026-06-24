@@ -1,0 +1,12 @@
+{
+  "context": [],
+  "decisions": [],
+  "file_map": {
+    "backend_expert": [
+      "requerimientos.txt",
+      "app/__init__.py",
+      "tests/__init__.py",
+      ".env.example"
+    ]
+  }
+}
