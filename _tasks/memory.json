@@ -1,5 +1,10 @@
 {
-  "context": [],
+  "context": [
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Configurar entorno de desarrollo. Archivos: requerimientos.txt, app/__init__.py, tests/__init__.py, .env.example",
+      "timestamp": "2026-06-24T13:31:22.857672"
+    }
+  ],
   "decisions": [],
   "file_map": {
     "backend_expert": [
@@ -7,6 +12,12 @@
       "app/__init__.py",
       "tests/__init__.py",
       ".env.example"
+    ],
+    "database_expert": [
+      "app/models.py",
+      "app/db_init.py",
+      "migrations/alembic.ini",
+      "migrations/env.py"
     ]
   }
 }
