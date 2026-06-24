@@ -20,3 +20,5 @@
 [2026-06-24 14:26:13] [IN_PROGRESS] task_005: Implementar logging estructurado
 [2026-06-24 14:30:40] [COMPLETED] task_005: Implementar logging estructurado
 [2026-06-24 14:30:43] [IN_PROGRESS] task_006: Implementar CORS
+[2026-06-24 14:32:52] [COMPLETED] task_006: Implementar CORS
+[2026-06-24 14:32:54] [IN_PROGRESS] task_007: Crear endpoints CRUD para posts con validación marshmallow
