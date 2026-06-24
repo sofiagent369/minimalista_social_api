@@ -3,6 +3,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Configurar entorno de desarrollo. Archivos: requerimientos.txt, app/__init__.py, tests/__init__.py, .env.example",
       "timestamp": "2026-06-24T13:31:22.857672"
+    },
+    {
+      "content": "Agente 🗄️ Experto Database completó: Configurar base de datos SQLite con SQLAlchemy. Archivos: app/models.py, app/db_init.py, migrations/alembic.ini, migrations/env.py",
+      "timestamp": "2026-06-24T14:17:41.250050"
     }
   ],
   "decisions": [],
@@ -11,7 +15,8 @@
       "requerimientos.txt",
       "app/__init__.py",
       "tests/__init__.py",
-      ".env.example"
+      ".env.example",
+      "app/auth.py"
     ],
     "database_expert": [
       "app/models.py",

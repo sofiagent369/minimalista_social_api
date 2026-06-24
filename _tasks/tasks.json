@@ -24,6 +24,27 @@
       "title": "Configurar base de datos SQLite con SQLAlchemy",
       "description": "Crear models.py en app/ con modelos User, Post, Follow. Crear script db_init.py para inicializar la base de datos y migraciones.",
       "assigned_to": "database_expert",
+      "status": "completed",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [
+        "app/models.py",
+        "app/db_init.py",
+        "migrations/alembic.ini",
+        "migrations/env.py"
+      ],
+      "output_summary": "Para configurar la base de datos SQLite con SQLAlchemy, crearemos los modelos `User`, `Post` y `Follow` en el archivo `app/models.py`. También crearemos un script `db_init.py` para inicializar la base de datos y configuraremos las migraciones utilizando Alembic.\n\n### Archivos a Crear:\n\n1. **app/mode | Archivos: app/models.py, app/db_init.py, migrations/alembic.ini, migrations/env.py",
+      "created_at": "2026-06-24T13:29:02.784868",
+      "started_at": "2026-06-24T14:11:55.522844",
+      "completed_at": "2026-06-24T14:17:41.233588"
+    },
+    {
+      "id": "task_003",
+      "title": "Configurar autenticación JWT con refresh tokens",
+      "description": "Crear auth.py en app/ con endpoints para login, refresh token y logout. Utilizar PyJWT para generar y verificar tokens.",
+      "assigned_to": "backend_expert",
       "status": "in_progress",
       "priority": 2,
       "dependencies": [
@@ -31,24 +52,8 @@
       ],
       "output_files": [],
       "output_summary": "",
-      "created_at": "2026-06-24T13:29:02.784868",
-      "started_at": "2026-06-24T14:11:55.522844",
-      "completed_at": null
-    },
-    {
-      "id": "task_003",
-      "title": "Configurar autenticación JWT con refresh tokens",
-      "description": "Crear auth.py en app/ con endpoints para login, refresh token y logout. Utilizar PyJWT para generar y verificar tokens.",
-      "assigned_to": "backend_expert",
-      "status": "pending",
-      "priority": 2,
-      "dependencies": [
-        "task_001"
-      ],
-      "output_files": [],
-      "output_summary": "",
       "created_at": "2026-06-24T13:29:02.794109",
-      "started_at": null,
+      "started_at": "2026-06-24T14:17:43.671806",
       "completed_at": null
     },
     {
@@ -176,5 +181,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T14:11:55.522844"
+  "updated_at": "2026-06-24T14:17:43.671806"
 }
