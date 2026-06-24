@@ -7,7 +7,10 @@ from app.logging_config import configure_logging
 
 def create_app():
     app = Flask(__name__)
-    CORS(app)
+    
+    # Configurar CORS
+    cors_origins = os.environ.get('CORS_ORIGINS', '*')
+    CORS(app, origins=cors_origins)
     
     # Configurar logging
     configure_logging()
