@@ -24,3 +24,5 @@
 [2026-06-24 14:32:54] [IN_PROGRESS] task_007: Crear endpoints CRUD para posts con validación marshmallow
 [2026-06-24 14:45:28] [COMPLETED] task_007: Crear endpoints CRUD para posts con validación marshmallow
 [2026-06-24 14:45:30] [IN_PROGRESS] task_008: Crear endpoints CRUD para follows con validación marshmallow
+[2026-06-24 14:48:43] [COMPLETED] task_008: Crear endpoints CRUD para follows con validación marshmallow
+[2026-06-24 14:48:46] [IN_PROGRESS] task_009: Escribir tests con pytest

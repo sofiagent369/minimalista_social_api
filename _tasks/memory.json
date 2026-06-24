@@ -31,6 +31,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Crear endpoints CRUD para posts con validación marshmallow. Archivos: app/routes/posts.py, app/schemas/post_schema.py",
       "timestamp": "2026-06-24T14:45:28.421796"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Crear endpoints CRUD para follows con validación marshmallow. Archivos: app/routes/follows.py, app/schemas/follow_schema.py",
+      "timestamp": "2026-06-24T14:48:43.910186"
     }
   ],
   "decisions": [],
@@ -51,7 +55,10 @@
       "app/routes/posts.py",
       "app/schemas/post_schema.py",
       "app/routes/follows.py",
-      "app/schemas/follow_schema.py"
+      "app/schemas/follow_schema.py",
+      "tests/conftest.py",
+      "tests/test_posts.py",
+      "tests/test_follows.py"
     ],
     "database_expert": [
       "app/models.py",
