@@ -14,3 +14,5 @@
 [2026-06-24 14:11:55] [IN_PROGRESS] task_002: Configurar base de datos SQLite con SQLAlchemy
 [2026-06-24 14:17:41] [COMPLETED] task_002: Configurar base de datos SQLite con SQLAlchemy
 [2026-06-24 14:17:43] [IN_PROGRESS] task_003: Configurar autenticación JWT con refresh tokens
+[2026-06-24 14:23:24] [COMPLETED] task_003: Configurar autenticación JWT con refresh tokens
+[2026-06-24 14:23:26] [IN_PROGRESS] task_004: Implementar rate limiting
