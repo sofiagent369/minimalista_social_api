@@ -22,3 +22,5 @@
 [2026-06-24 14:30:43] [IN_PROGRESS] task_006: Implementar CORS
 [2026-06-24 14:32:52] [COMPLETED] task_006: Implementar CORS
 [2026-06-24 14:32:54] [IN_PROGRESS] task_007: Crear endpoints CRUD para posts con validación marshmallow
+[2026-06-24 14:45:28] [COMPLETED] task_007: Crear endpoints CRUD para posts con validación marshmallow
+[2026-06-24 14:45:30] [IN_PROGRESS] task_008: Crear endpoints CRUD para follows con validación marshmallow

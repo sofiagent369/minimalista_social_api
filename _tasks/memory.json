@@ -27,6 +27,10 @@
     {
       "content": "⚠️ Validación fallida (intento 1): routes/posts.py: Python SyntaxError line 3: invalid syntax; app/__init__.py: Python SyntaxError line 3: invalid syntax",
       "timestamp": "2026-06-24T14:41:29.251517"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Crear endpoints CRUD para posts con validación marshmallow. Archivos: app/routes/posts.py, app/schemas/post_schema.py",
+      "timestamp": "2026-06-24T14:45:28.421796"
     }
   ],
   "decisions": [],
@@ -45,7 +49,9 @@
       ".env.example",
       "app/__init__.py",
       "app/routes/posts.py",
-      "app/schemas/post_schema.py"
+      "app/schemas/post_schema.py",
+      "app/routes/follows.py",
+      "app/schemas/follow_schema.py"
     ],
     "database_expert": [
       "app/models.py",
