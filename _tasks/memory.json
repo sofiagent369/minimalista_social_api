@@ -11,6 +11,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Configurar autenticación JWT con refresh tokens. Archivos: app/auth.py",
       "timestamp": "2026-06-24T14:23:24.600611"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Implementar rate limiting. Archivos: requerimientos.txt, app/__init__.py",
+      "timestamp": "2026-06-24T14:26:10.689750"
     }
   ],
   "decisions": [],
@@ -22,6 +26,9 @@
       ".env.example",
       "app/auth.py",
       "requerimientos.txt",
+      "app/__init__.py",
+      "requerimientos.txt",
+      "app/logging_config.py",
       "app/__init__.py"
     ],
     "database_expert": [

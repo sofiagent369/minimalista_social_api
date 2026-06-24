@@ -2,10 +2,15 @@ from flask import Flask
 from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+import structlog
+from app.logging_config import configure_logging
 
 def create_app():
     app = Flask(__name__)
     CORS(app)
+    
+    # Configurar logging
+    configure_logging()
     
     # Configuración de la base de datos (SQLite en este caso)
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///social.db'

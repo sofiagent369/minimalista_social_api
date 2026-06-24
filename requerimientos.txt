@@ -5,3 +5,4 @@ PyJWT==2.4.0
 Flask-CORS==3.0.10
 pytest==7.1.2
 Flask-Limiter==2.5.0
+structlog==20.2.0
