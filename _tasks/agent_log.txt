@@ -26,3 +26,6 @@
 [2026-06-24 14:45:30] [IN_PROGRESS] task_008: Crear endpoints CRUD para follows con validación marshmallow
 [2026-06-24 14:48:43] [COMPLETED] task_008: Crear endpoints CRUD para follows con validación marshmallow
 [2026-06-24 14:48:46] [IN_PROGRESS] task_009: Escribir tests con pytest
+[2026-06-24 14:57:45] [COMPLETED] task_009: Escribir tests con pytest
+[2026-06-24 14:57:48] [IN_PROGRESS] task_010: Crear README.md con documentación de endpoints
+[2026-06-24 15:12:50] [FAILED] task_010: Crear README.md con documentación de endpoints

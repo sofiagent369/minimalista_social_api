@@ -35,6 +35,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Crear endpoints CRUD para follows con validación marshmallow. Archivos: app/routes/follows.py, app/schemas/follow_schema.py",
       "timestamp": "2026-06-24T14:48:43.910186"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Escribir tests con pytest. Archivos: tests/conftest.py, tests/test_posts.py, tests/test_follows.py",
+      "timestamp": "2026-06-24T14:57:45.903184"
     }
   ],
   "decisions": [],
